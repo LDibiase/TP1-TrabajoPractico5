@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="ort.tp1.tdas.ejercicios.ej1.clases.FabricanteDePelotas" 
+    project="2020C2_TP1_TDAs_Ejercicios_V2" 
+    file="/2020C2_TP1_TDAs_Ejercicios_V2/src/ort/tp1/tdas/ejercicios/ej1/clases/FabricanteDePelotas.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="127" y="111"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="2" language="java" name="ort.tp1.tdas.ejercicios.ej1.clases.PelotaDeTenis.EstadoPelota" 
+    project="2020C2_TP1_TDAs_Ejercicios_V2" 
+    file="/2020C2_TP1_TDAs_Ejercicios_V2/src/ort/tp1/tdas/ejercicios/ej1/clases/PelotaDeTenis.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="348" y="295"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="3" language="java" name="ort.tp1.tdas.ejercicios.ej1.clases.PelotaDeTenis" 
+    project="2020C2_TP1_TDAs_Ejercicios_V2" 
+    file="/2020C2_TP1_TDAs_Ejercicios_V2/src/ort/tp1/tdas/ejercicios/ej1/clases/PelotaDeTenis.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="127" y="295"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="ort.tp1.tdas.ejercicios.ej1.clases.TuboPelotasDeTenis" 
+    project="2020C2_TP1_TDAs_Ejercicios_V2" 
+    file="/2020C2_TP1_TDAs_Ejercicios_V2/src/ort/tp1/tdas/ejercicios/ej1/clases/TuboPelotasDeTenis.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="341" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="ort.tp1.tdas.interfaces.Pila" project="2020C2_TP1_TDAs_Ejercicios_V2" 
+    file="/2020C2_TP1_TDAs_Ejercicios_V2/src/ort/tp1/tdas/interfaces/Pila.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="532" y="108"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <dependency id="6">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <nesting id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </nesting>  
+  <association id="10">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="11" name="pelotas">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="12" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
